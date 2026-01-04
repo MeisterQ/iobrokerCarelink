@@ -17,3 +17,10 @@ After this everything should be filled with data if you run it.
 
 This script will poll the api every minute and extract data. It will refresh the refresh token every 45 minutes. If you not stop the script or javascript instance, it will always refresh the token and no interaction is needed.
 If you stop it for a longer time, then you probably have to rerun the python script to get new tokens.
+
+For the pythonscript you need this packages:
+- requests (pip install requests)
+- OpenSSL (pip install pyOpenSSL)
+- seleniumwire (pip install selenium-wire)
+- curlify (pip install curlify)
+- blinker vertion 1.7.0 (pip install blinker==1.7.0) (Issue documented here: seleniumbase/SeleniumBase#2782)
